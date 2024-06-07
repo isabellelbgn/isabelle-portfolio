@@ -47,7 +47,7 @@ export const experiencesData = [
   },
   {
     title: "Software Engineer Intern - Orange & Bronze Software Labs",
-    location: "Makati City, Philippines",
+    location: "Legaspi Village, Makati City",
     description:
       "Interning at Orange & Bronze Software Labs, focusing on Java, gaining practical experience in software engineering. Working with a team of professionals to deliver high-quality software solutions.",
     icon: React.createElement(FaBriefcase),
