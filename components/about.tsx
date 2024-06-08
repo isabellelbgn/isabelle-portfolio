@@ -27,10 +27,10 @@ export default function About() {
         Additionally, I am an intern at Orange & Bronze Software Labs, where I
         focus on
         <span className="font-medium"> Java and Spring Boot</span>.
-        <span className="italic"> My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="font-medium">love</span> the
-        feeling of finally figuring out a solution to a problem. I am always
-        eager to learn new technologies and am currently looking for a
+      </p>
+
+      <p>
+        I am eager to learn new technologies and am currently looking for a
         <span className="font-medium"> part-time position</span> as a software
         developer.
       </p>

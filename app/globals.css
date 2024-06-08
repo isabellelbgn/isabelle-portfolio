@@ -5,3 +5,8 @@
 html {
   --line-color: #e5e7eb;
 }
+
+.gradient-text {
+  @apply bg-clip-text text-transparent;
+  background-image: linear-gradient(90deg, #fbc2eb, #a18cd1);
+}

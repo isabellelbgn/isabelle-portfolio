@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -8,9 +8,11 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
+
   return (
     <section
       ref={ref}
@@ -59,8 +61,30 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Isabelle!</span> An aspiring
-        <span className="font-bold"> web developer</span> focusing on
+        <div>
+          Hello, I'm <span className="font-bold"> Isabelle!</span> <br />
+          An aspiring
+          <TypeAnimation
+            sequence={[
+              " web developer",
+              500,
+
+              " backend developer",
+              1000,
+
+              " full-stack developer",
+              1000,
+
+              " software engineer",
+              1000,
+            ]}
+            speed={50}
+            style={{ fontSize: "1em", fontWeight: "bold" }}
+            className="gradient-text"
+            repeat={Infinity}
+          />
+        </div>
+        focusing on
         <span className="font-bold"> backend development.</span> My expertise
         lies in
         <span className="font-bold"> Node.js and Django</span>, with extensive
