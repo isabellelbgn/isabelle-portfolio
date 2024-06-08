@@ -22,10 +22,6 @@ export const links = [
     name: "Experience",
     hash: "#experience",
   },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
 ] as const;
 
 export const experiencesData = [
@@ -60,14 +56,16 @@ export const projectsData = [
   {
     title: "NeverForEver E-commerce",
     description:
-      "I worked as a backend developer on this  project for a Software Engineering course for 5 months. It is a full-stack web application designed for online shopping. It features a front-end built with React and a back-end powered by Node.js, Express, and MySQL. The application allows users to register and login, browse products, add items to their cart, and make purchases.",
+      "A full-stack web application designed for online shopping. The application allows users to register and login, browse products, add items to their cart, and make purchases.",
+    githubUrl: "https://github.com/isabellelbgn/neverforever-ecommerce",
     tags: ["React", "Node.js", "Express", "MySQL", "Tailwind"],
     // imageUrl: 
   },
   {
     title: "NeverForEver Admin",
     description:
-      "I worked as a fullstack developer on this  project for a Software Engineering course for 5 months. It is the administrative interface for the Neverforever E-commerce platform. It is an application designed for managing products, orders, suppliers, and users within the Neverforever E-commerce system. The front-end is built with React, and the back-end is powered by Node.js, Express, and MySQL.",
+      "A full-stack web application of the administrative interface for the Neverforever E-commerce platform. It is an application designed for managing products, orders, suppliers, and users within the Neverforever E-commerce system.",
+    githubUrl: "https://github.com/isabellelbgn/neverforever-admin",
     tags: ["React", "Node.js", "Express", "MySQL", "Tailwind"],
     // imageUrl: 
   },
@@ -75,10 +73,11 @@ export const projectsData = [
   {
     title: "All Bookstore",
     description:
-      "A full-stack web application designed to revolutionize how people interact with online bookstores and libraries. It seamlessly integrates a user-friendly interface with powerful backend functionality to ensure efficient book tracking and user interaction. ALL Bookstore promises to be a go-to platform in providing an enriching experience for book enthusiasts and knowledge seekers alike.",
+      "A full-stack web application designed to revolutionize how people interact with online bookstore. It seamlessly integrates a user-friendly interface with powerful backend functionality to ensure efficient book tracking and user interaction.",
+    githubUrl: "https://github.com/isabellelbgn/all-bookstore",
     tags: ["React", "Python", "Django", "PostgreSQL", "Tailwind", "REST"],
+    // imageUrl: 
   },
-  // imageUrl: 
 ] as const;
 
 export const skillsData = [
@@ -97,4 +96,8 @@ export const skillsData = [
   "PostgreSQL",
   "Python",
   "Django",
+  "Maven",
+  "Spring Boot",
+  "Docker",
+  "Kubernetes",
 ] as const;
